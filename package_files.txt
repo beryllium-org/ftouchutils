@@ -1,0 +1,7 @@
+mpy submodules/Adafruit_CircuitPython_FocalTouch/adafruit_focaltouch.py adafruit_focaltouch.mpy
+file adafruit_focaltouch.mpy /lib/adafruit_focaltouch.mpy
+file mkftouch.lja /bin/mkftouch.lja
+file mkftouch.py /bin/mkftouch.py
+file rmftouch.lja /bin/rmftouch.lja
+file rmftouch.py /bin/rmftouch.py
+
