@@ -25,6 +25,7 @@ if not ("h" in vr("opts")["o"] or "help" in vr("opts")["o"]):
             be.devices["ftouch"][vr("dev_id")] = Adafruit_FocalTouch(vr("i2c"))
             del Adafruit_FocalTouch
             be.api.setvar("return", "0")
+            dmtex("ftouch device registered at /dev/ftouch" + str(vr("dev_id")))
         except:
             term.write("Could not init display!")
     except:
